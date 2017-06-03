@@ -19,6 +19,11 @@
 		36F8C7BC1EE289EB00E96296 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F8C7BB1EE289EB00E96296 /* RootViewController.m */; };
 		36F8C7BD1EE289EB00E96296 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F8C7BB1EE289EB00E96296 /* RootViewController.m */; };
 		36F8C7BE1EE289EB00E96296 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F8C7BB1EE289EB00E96296 /* RootViewController.m */; };
+		36F8C7CC1EE29B6D00E96296 /* LHPerformanceConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F8C7C21EE29B6D00E96296 /* LHPerformanceConfig.m */; };
+		36F8C7CD1EE29B6D00E96296 /* LHPerformanceLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F8C7C41EE29B6D00E96296 /* LHPerformanceLabel.m */; };
+		36F8C7CE1EE29B6D00E96296 /* LHPerformanceMonitorService.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F8C7C61EE29B6D00E96296 /* LHPerformanceMonitorService.m */; };
+		36F8C7CF1EE29B6D00E96296 /* LHPerformanceStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F8C7C81EE29B6D00E96296 /* LHPerformanceStatusBar.m */; };
+		36F8C7D01EE29B6D00E96296 /* LHPerformanceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F8C7CB1EE29B6D00E96296 /* LHPerformanceUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +63,17 @@
 		36F8C7AE1EE2899800E96296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36F8C7BA1EE289EB00E96296 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		36F8C7BB1EE289EB00E96296 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		36F8C7C11EE29B6D00E96296 /* LHPerformanceConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHPerformanceConfig.h; sourceTree = "<group>"; };
+		36F8C7C21EE29B6D00E96296 /* LHPerformanceConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHPerformanceConfig.m; sourceTree = "<group>"; };
+		36F8C7C31EE29B6D00E96296 /* LHPerformanceLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHPerformanceLabel.h; sourceTree = "<group>"; };
+		36F8C7C41EE29B6D00E96296 /* LHPerformanceLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHPerformanceLabel.m; sourceTree = "<group>"; };
+		36F8C7C51EE29B6D00E96296 /* LHPerformanceMonitorService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHPerformanceMonitorService.h; sourceTree = "<group>"; };
+		36F8C7C61EE29B6D00E96296 /* LHPerformanceMonitorService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHPerformanceMonitorService.m; sourceTree = "<group>"; };
+		36F8C7C71EE29B6D00E96296 /* LHPerformanceStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHPerformanceStatusBar.h; sourceTree = "<group>"; };
+		36F8C7C81EE29B6D00E96296 /* LHPerformanceStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHPerformanceStatusBar.m; sourceTree = "<group>"; };
+		36F8C7C91EE29B6D00E96296 /* LHPerformanceTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHPerformanceTypes.h; sourceTree = "<group>"; };
+		36F8C7CA1EE29B6D00E96296 /* LHPerformanceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHPerformanceUtil.h; sourceTree = "<group>"; };
+		36F8C7CB1EE29B6D00E96296 /* LHPerformanceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHPerformanceUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +124,7 @@
 		36F8C7831EE2899800E96296 /* SundayDemo */ = {
 			isa = PBXGroup;
 			children = (
+				36F8C7BF1EE29B6100E96296 /* Vender */,
 				36F8C7871EE2899800E96296 /* AppDelegate.h */,
 				36F8C7881EE2899800E96296 /* AppDelegate.m */,
 				36F8C78A1EE2899800E96296 /* ViewController.h */,
@@ -148,6 +165,32 @@
 				36F8C7AE1EE2899800E96296 /* Info.plist */,
 			);
 			path = SundayDemoUITests;
+			sourceTree = "<group>";
+		};
+		36F8C7BF1EE29B6100E96296 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				36F8C7C01EE29B6D00E96296 /* LHPerformanceStatusBar */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		36F8C7C01EE29B6D00E96296 /* LHPerformanceStatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				36F8C7C11EE29B6D00E96296 /* LHPerformanceConfig.h */,
+				36F8C7C21EE29B6D00E96296 /* LHPerformanceConfig.m */,
+				36F8C7C31EE29B6D00E96296 /* LHPerformanceLabel.h */,
+				36F8C7C41EE29B6D00E96296 /* LHPerformanceLabel.m */,
+				36F8C7C51EE29B6D00E96296 /* LHPerformanceMonitorService.h */,
+				36F8C7C61EE29B6D00E96296 /* LHPerformanceMonitorService.m */,
+				36F8C7C71EE29B6D00E96296 /* LHPerformanceStatusBar.h */,
+				36F8C7C81EE29B6D00E96296 /* LHPerformanceStatusBar.m */,
+				36F8C7C91EE29B6D00E96296 /* LHPerformanceTypes.h */,
+				36F8C7CA1EE29B6D00E96296 /* LHPerformanceUtil.h */,
+				36F8C7CB1EE29B6D00E96296 /* LHPerformanceUtil.m */,
+			);
+			path = LHPerformanceStatusBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,11 +327,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36F8C7CD1EE29B6D00E96296 /* LHPerformanceLabel.m in Sources */,
+				36F8C7CF1EE29B6D00E96296 /* LHPerformanceStatusBar.m in Sources */,
+				36F8C7CC1EE29B6D00E96296 /* LHPerformanceConfig.m in Sources */,
 				36F8C7921EE2899800E96296 /* SundayDemo.xcdatamodeld in Sources */,
 				36F8C78C1EE2899800E96296 /* ViewController.m in Sources */,
 				36F8C7891EE2899800E96296 /* AppDelegate.m in Sources */,
+				36F8C7D01EE29B6D00E96296 /* LHPerformanceUtil.m in Sources */,
 				36F8C7861EE2899800E96296 /* main.m in Sources */,
 				36F8C7BC1EE289EB00E96296 /* RootViewController.m in Sources */,
+				36F8C7CE1EE29B6D00E96296 /* LHPerformanceMonitorService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +576,7 @@
 				36F8C7B31EE2899800E96296 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36F8C7B41EE2899800E96296 /* Build configuration list for PBXNativeTarget "SundayDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +585,7 @@
 				36F8C7B61EE2899800E96296 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36F8C7B71EE2899800E96296 /* Build configuration list for PBXNativeTarget "SundayDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +594,7 @@
 				36F8C7B91EE2899800E96296 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

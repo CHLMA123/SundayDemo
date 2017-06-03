@@ -7,6 +7,7 @@
 //
 
 #import "RootViewController.h"
+#import "LHPerformanceMonitorService.h"
 
 @interface RootViewController ()
 
@@ -23,6 +24,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [LHPerformanceMonitorService run];
 }
 
 - (void)dealloc {
