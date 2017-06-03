@@ -93,7 +93,10 @@
 }
 
 #pragma mark - DisplayLink hander
-
+/*
+ FPS的计算
+ CoreAnimation有一个很好用的类CADisplayLink，这个类会在每一帧绘制之前调用，并且可以获取时间戳。于是，我们只要统计出，在1s内的帧数即可。
+ */
 - (void)envokeDisplayLink:(CADisplayLink *)displayLink{
     if (_lastTimestamp == -1) {
         _lastTimestamp = displayLink.timestamp;
@@ -110,6 +113,7 @@
     self.fpsStatusBar.fpsLabel.text = [NSString stringWithFormat:@"FPS:%d",(int)round(fps)];
     self.fpsStatusBar.fpsLabel.state = [self labelStateWith:LHPerformanceMonitorFPS value:fps];
     
+    // CPU和内存的获取采用了mach头文件中的方法，调用了底层API，采用C方式来获取。
     CGFloat memory = [LHPerformanceUtil usedMemoryInMB];
     self.fpsStatusBar.memoryLabel.text = [NSString stringWithFormat:@"Memory:%.2fMB",memory];
     self.fpsStatusBar.memoryLabel.state = [self labelStateWith:LHPerformanceMonitorMemory value:memory];
