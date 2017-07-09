@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		36C043641EE2B6CC00A08D5F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 36C043631EE2B6CC00A08D5F /* README.md */; };
 		36C043671EE2B90F00A08D5F /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C043661EE2B90F00A08D5F /* UIImage+Extend.m */; };
+		36C0436A1EE2C12A00A08D5F /* ScanQRView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C043691EE2C12A00A08D5F /* ScanQRView.m */; };
 		36F8C7861EE2899800E96296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F8C7851EE2899800E96296 /* main.m */; };
 		36F8C7891EE2899800E96296 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F8C7881EE2899800E96296 /* AppDelegate.m */; };
 		36F8C78C1EE2899800E96296 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F8C78B1EE2899800E96296 /* ViewController.m */; };
@@ -49,6 +50,8 @@
 		36C043631EE2B6CC00A08D5F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		36C043651EE2B90F00A08D5F /* UIImage+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
 		36C043661EE2B90F00A08D5F /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
+		36C043681EE2C12A00A08D5F /* ScanQRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanQRView.h; sourceTree = "<group>"; };
+		36C043691EE2C12A00A08D5F /* ScanQRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanQRView.m; sourceTree = "<group>"; };
 		36F8C7811EE2899800E96296 /* SundayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SundayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F8C7851EE2899800E96296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		36F8C7871EE2899800E96296 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,6 +112,8 @@
 		36F8C7781EE2899800E96296 = {
 			isa = PBXGroup;
 			children = (
+				36C043681EE2C12A00A08D5F /* ScanQRView.h */,
+				36C043691EE2C12A00A08D5F /* ScanQRView.m */,
 				36F8C7831EE2899800E96296 /* SundayDemo */,
 				36F8C7A01EE2899800E96296 /* SundayDemoTests */,
 				36F8C7AB1EE2899800E96296 /* SundayDemoUITests */,
@@ -129,7 +134,6 @@
 		36F8C7831EE2899800E96296 /* SundayDemo */ = {
 			isa = PBXGroup;
 			children = (
-				36C043631EE2B6CC00A08D5F /* README.md */,
 				36F8C7BF1EE29B6100E96296 /* Vender */,
 				36F8C7871EE2899800E96296 /* AppDelegate.h */,
 				36F8C7881EE2899800E96296 /* AppDelegate.m */,
@@ -137,6 +141,7 @@
 				36F8C78B1EE2899800E96296 /* ViewController.m */,
 				36F8C7BA1EE289EB00E96296 /* RootViewController.h */,
 				36F8C7BB1EE289EB00E96296 /* RootViewController.m */,
+				36C043631EE2B6CC00A08D5F /* README.md */,
 				36F8C78D1EE2899800E96296 /* Main.storyboard */,
 				36F8C7931EE2899800E96296 /* Assets.xcassets */,
 				36F8C7951EE2899800E96296 /* LaunchScreen.storyboard */,
@@ -347,6 +352,7 @@
 				36C043641EE2B6CC00A08D5F /* README.md in Sources */,
 				36F8C7CE1EE29B6D00E96296 /* LHPerformanceMonitorService.m in Sources */,
 				36C043671EE2B90F00A08D5F /* UIImage+Extend.m in Sources */,
+				36C0436A1EE2C12A00A08D5F /* ScanQRView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

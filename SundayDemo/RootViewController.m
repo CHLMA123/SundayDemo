@@ -8,8 +8,11 @@
 
 #import "RootViewController.h"
 #import "LHPerformanceMonitorService.h"
+#import "ScanQRView.h"
 
-@interface RootViewController ()
+@interface RootViewController ()<ScanQRDelegate>
+
+@property (strong,nonatomic)UILabel * scanresultLabel;
 
 @end
 
@@ -19,8 +22,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    
+    ScanQRView * scanView = [[ScanQRView alloc] initWithFrame:CGRectMake(100,100,200, 200)];
+    scanView.delegate = self;//这一步必须的
+    [self.view addSubview:scanView];
+    self.scanresultLabel = [[UILabel alloc] initWithFrame:CGRectMake(100, 320, 200, 30)];
+    [self.view addSubview:self.scanresultLabel];
+    [scanView startScaning];//不要忘记开始扫描
+}
+//两个代理方法
+-(void)DidGetScanWithResult:(NSString *)QRContent{
+    self.scanresultLabel.text = QRContent;
+}
+-(void)DidFailToScanWithError:(NSError *)error{
+    NSLog(@"%@",error.localizedDescription);
 }
 
 /**
