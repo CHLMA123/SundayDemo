@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		365D14EF1F1278AB001FE5D7 /* MAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 365D14EE1F1278AB001FE5D7 /* MAViewController.m */; };
 		36C043641EE2B6CC00A08D5F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 36C043631EE2B6CC00A08D5F /* README.md */; };
 		36C043671EE2B90F00A08D5F /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C043661EE2B90F00A08D5F /* UIImage+Extend.m */; };
 		36C0436A1EE2C12A00A08D5F /* ScanQRView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C043691EE2C12A00A08D5F /* ScanQRView.m */; };
@@ -47,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		365D14ED1F1278AB001FE5D7 /* MAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAViewController.h; sourceTree = "<group>"; };
+		365D14EE1F1278AB001FE5D7 /* MAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAViewController.m; sourceTree = "<group>"; };
 		36C043631EE2B6CC00A08D5F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		36C043651EE2B90F00A08D5F /* UIImage+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
 		36C043661EE2B90F00A08D5F /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
@@ -150,6 +153,8 @@
 				36F8C7841EE2899800E96296 /* Supporting Files */,
 				36C043651EE2B90F00A08D5F /* UIImage+Extend.h */,
 				36C043661EE2B90F00A08D5F /* UIImage+Extend.m */,
+				365D14ED1F1278AB001FE5D7 /* MAViewController.h */,
+				365D14EE1F1278AB001FE5D7 /* MAViewController.m */,
 			);
 			path = SundayDemo;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 		36F8C7791EE2899800E96296 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MA;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = MACHUNLEI;
 				TargetAttributes = {
@@ -348,6 +354,7 @@
 				36F8C7891EE2899800E96296 /* AppDelegate.m in Sources */,
 				36F8C7D01EE29B6D00E96296 /* LHPerformanceUtil.m in Sources */,
 				36F8C7861EE2899800E96296 /* main.m in Sources */,
+				365D14EF1F1278AB001FE5D7 /* MAViewController.m in Sources */,
 				36F8C7BC1EE289EB00E96296 /* RootViewController.m in Sources */,
 				36C043641EE2B6CC00A08D5F /* README.md in Sources */,
 				36F8C7CE1EE29B6D00E96296 /* LHPerformanceMonitorService.m in Sources */,
